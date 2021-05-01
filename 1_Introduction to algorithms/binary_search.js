@@ -28,7 +28,6 @@ function binarySearch(list, item) {
 
             // Get stop time
             let stop = process.hrtime(start);
-            // console.log(`time taken to execute: ${(stop[0] * 1e9 + stop[1]) * 1000/1e9} ms`);
             printExecutionTime(stop);
 
             return mid;
@@ -50,7 +49,6 @@ function binarySearch(list, item) {
 
     // Get stop time
     let stop = process.hrtime(start);
-    // console.log(`time taken to execute: ${(stop[0] * 1e9 + stop[1]) * 1000/1e9} ms`);
     printExecutionTime(stop);
 
     // The item doesn’t exist.
